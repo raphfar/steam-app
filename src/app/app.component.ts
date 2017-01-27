@@ -8,8 +8,8 @@ export class Games {
   screenshots : string;
   // videos : ;
   cover : string;
-
 }
+
 @Component({
   selector: 'app-root',
   template: `
@@ -22,6 +22,7 @@ export class Games {
     <h4>Cover : {{games.cover}}</h4>
     `
 })
+
 export class AppComponent {
   title = 'Tour of Games';
   games : Games = {
