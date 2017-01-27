@@ -6,10 +6,18 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { AffichageService } from './affichage.service';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { BiblioComponent } from './biblio/biblio.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    BiblioComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
